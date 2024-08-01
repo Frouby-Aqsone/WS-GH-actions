@@ -1,3 +1,5 @@
+import pandas as pd
+
 """This module runs some unit test"""
 
 def inc(x):
