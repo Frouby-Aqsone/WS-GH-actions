@@ -1,6 +1,6 @@
-import pandas as pd
-
 """This module runs some unit test"""
+
+import pandas as pd
 
 def inc(x):
     """Increments and returns the value x
