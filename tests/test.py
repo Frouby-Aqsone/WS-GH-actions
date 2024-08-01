@@ -8,7 +8,13 @@ def inc(x):
     Keyword arguments:
     x -- the number we want to increment
     """
-    return x + 1
+
+    df = pd.DataFrame([{'number': x}])
+    df['number'] = df['number'] + 1
+
+    new_x = df['number'].to_list()[0]
+    
+    return new_x
 
 
 def test_answer():
