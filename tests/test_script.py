@@ -13,7 +13,7 @@ def inc(x):
     df['number'] = df['number'] + 1
 
     new_x = df['number'].to_list()[0]
-    
+
     return new_x
 
 
